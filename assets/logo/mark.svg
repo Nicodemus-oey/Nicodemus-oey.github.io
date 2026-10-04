@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Nicodemus Oey monogram">
+  <title>Nicodemus Oey — neural N</title>
+  <!--
+    Mark: a bold geometric "N" whose diagonal is a continuous signal chain,
+    marked by three beads (the centre one the soma).
+    Fix vs v1: the diagonal is CONTINUOUS and the beads carry NO white halo.
+    In v1 the halos (r+4.5px) were wider than the node spacing and erased the
+    diagonal entirely, leaving three floating dots (verified by pixel scan).
+
+    Palette: Okabe-Ito colourblind-safe. Uprights/diagonal #0072B2 blue,
+    beads #E69F00 orange.
+    Geometry: ink bbox centred on (256,256); max radius ~214px, inside the
+    256px-radius circle GitHub crops avatars to.
+  -->
+  <g fill="none" stroke="#0072B2" stroke-linecap="round">
+    <path d="M134 132 L134 380" stroke-width="56"/>
+    <path d="M378 132 L378 380" stroke-width="56"/>
+    <path d="M134 132 L378 380" stroke-width="30"/>
+  </g>
+  <g fill="#E69F00">
+    <circle cx="195" cy="194" r="30"/>
+    <circle cx="256" cy="256" r="44"/>
+    <circle cx="317" cy="318" r="30"/>
+  </g>
+</svg>
